@@ -340,3 +340,9 @@ form {
 #volume-slider {
     width: 50px;
 }
+
+@media (max-width: 1210px){
+    .middle-right {
+        display: none;
+    }
+}

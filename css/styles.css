@@ -325,4 +325,14 @@ img {
     background-color: #333;
 }
 
-
+@media (max-width: 1080px) {
+    .player {
+        display: none;
+    }
+    .countdown {
+        font-size: 30px;
+    }
+    .main-bottom {
+        margin-top: 20px;
+    }
+}
