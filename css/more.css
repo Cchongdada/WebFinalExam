@@ -172,6 +172,12 @@ img {
     height: 150px;
     margin: 10px;
     border-radius: 50%;
+    animation: aa 35s linear infinite;
+}
+
+@keyframes aa {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 .content-container {
